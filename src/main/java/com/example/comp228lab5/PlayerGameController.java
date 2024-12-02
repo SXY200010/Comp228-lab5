@@ -36,7 +36,6 @@ public class PlayerGameController {
 
     @FXML
     public void initialize() {
-        // 设置每列与 PlayerGameRecord 对象属性的绑定
         firstNameColumn.setCellValueFactory(cellData -> cellData.getValue().firstNameProperty());
         lastNameColumn.setCellValueFactory(cellData -> cellData.getValue().lastNameProperty());
         gameTitleColumn.setCellValueFactory(cellData -> cellData.getValue().gameTitleProperty());
